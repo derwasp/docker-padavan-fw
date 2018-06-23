@@ -1,7 +1,7 @@
 FROM ubuntu
 
 RUN apt update -y && \
-    apt install -y sudo vim netcat \
+    apt install -y sudo vim netcat wget \
                    ca-certificates build-essential \
                    gawk texinfo pkg-config gettext automake libtool \
                    bison flex zlib1g-dev libgmp3-dev libmpfr-dev libmpc-dev \
